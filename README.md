@@ -1,10 +1,14 @@
 # Front-End-Test-Bloomberg-Linea
  
 ##🔧 Installation
+
 Please follow the instructions below to install this application in your machine:
 
 ##📋 Pré-requisitos
-Node React Sass
+
+-Node</br>
+-React</br>
+-Sass</br>
 
 Clone the repository at the following link:
 
@@ -12,10 +16,10 @@ https://github.com/wevertonbezzera013/Front-End-Test-Bloomberg-Linea
 
 ##🛠️ Tools used
 
--Node
--React
--Sass
--JavaScript
+-Node</br>
+-React</br>
+-Sass</br>
+-JavaScript</br>
 
 ##✒️ Author
 This was built by me!
