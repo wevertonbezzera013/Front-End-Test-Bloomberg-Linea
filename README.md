@@ -30,7 +30,7 @@ npm start
 
 ##📋 Prerequisites
 
--Node</br>
+-Node.js v19.3.0</br>
 
 Clone the repository at the following link:
 
