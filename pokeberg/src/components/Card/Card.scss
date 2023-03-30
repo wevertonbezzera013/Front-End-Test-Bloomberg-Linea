@@ -1,0 +1,127 @@
+@media (min-width: 1281px) {
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .pokemon-name {
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+
+  .pokemon-img {
+    width: 300px;
+  }
+
+  .detail-lists {
+    background-color: brown;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
+    details[open] summary::marker {
+      content: "▼ ";
+      cursor: pointer;
+
+      summary::marker {
+        content: "▶ ";
+        right: 5px;
+      }
+    }
+    .content {
+      margin-top: 10px;
+      font-weight: bolder;
+      color: white;
+      font-size: 20px;
+      list-style-type: none;
+      cursor: context-menu;
+
+      &:hover {
+        background-color: rgb(165, 66, 66);
+      }
+    }
+
+    summary {
+      cursor: pointer;
+      margin-top: 10px;
+      font-weight: bolder;
+      color: white;
+      font-size: 20px;
+    }
+  }
+
+  .game-count {
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+}
+}
+
+@media (min-width: 320px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .pokemon-name {
+            font-weight: bolder;
+            font-size: 50px;
+            text-transform: capitalize;
+          }
+        
+          .pokemon-img {
+            width: 300px;
+          }
+      
+        .detail-lists {
+          background-color: brown;
+          padding-left: 50px;
+          padding-right: 50px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          border-radius: 5px;
+      
+          details[open] summary::marker {
+            content: "▼ ";
+            cursor: pointer;
+      
+            summary::marker {
+              content: "▶ ";
+              right: 5px;
+            }
+          }
+          .content {
+            margin-top: 10px;
+            font-weight: bolder;
+            color: white;
+            font-size: 20px;
+            list-style-type: none;
+            cursor: context-menu;
+      
+            &:hover {
+              background-color: rgb(165, 66, 66);
+            }
+          }
+      
+          summary {
+            cursor: pointer;
+            margin-top: 10px;
+            font-weight: bolder;
+            color: white;
+            font-size: 20px;
+          }
+        }
+        
+        .game-count {
+          margin-top: 30px;
+          font-weight: bolder;
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+      
+}
