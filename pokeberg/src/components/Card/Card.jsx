@@ -59,11 +59,14 @@ const Card = () => {
             <ul>
               {/* This code returns the move array */}
               {pokemon.moves &&
-                pokemon.moves.map((movement, index) => (
-                  <li className="content" alt={movement.move.name} key={index}>
-                    {movement.move.name}
-                  </li>
-                ))}
+                pokemon.moves
+                  .map((movement) => movement.move.name)
+                  .sort()
+                  .map((moveName, index) => (
+                    <li className="content" alt={moveName} key={index}>
+                      {moveName}
+                    </li>
+                  ))}
             </ul>
           </details>
 
@@ -74,7 +77,13 @@ const Card = () => {
                 pokemon.game_indices
                   .filter((game) => !removeGames.includes(game.version.name))
                   .map((game) => (
-                    <li className="content" alt={game.version.name} key={game.version.name}>{game.version.name}</li>
+                    <li
+                      className="content"
+                      alt={game.version.name}
+                      key={game.version.name}
+                    >
+                      {game.version.name}
+                    </li>
                   ))}
             </ul>
           </details>
