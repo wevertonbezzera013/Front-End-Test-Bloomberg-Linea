@@ -4,6 +4,12 @@
 
 Please follow the instructions below to install this application in your machine:
 
+1- Clone the repo:
+
+```
+git clone https://github.com/wevertonbezzera013/Front-End-Test-Bloomberg-Linea.git
+```
+
 ##📋 Pré-requisitos
 
 -Node</br>
