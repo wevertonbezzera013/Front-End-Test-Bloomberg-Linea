@@ -46,6 +46,6 @@ https://github.com/wevertonbezzera013/Front-End-Test-Bloomberg-Linea
 ##✒️ Author
 This was built by me!
 
-[Linkedin](https://www.linkedin.com/in/weverton-bezerra-da-costa-061ab11a4/)
-[GitHub](https://github.com/wevertonbezzera013)
-[Portfolio](https://wevdev.netlify.app/)
+[Linkedin](https://www.linkedin.com/in/weverton-bezerra-da-costa-061ab11a4/)</br>
+[GitHub](https://github.com/wevertonbezzera013)</br>
+[Portfolio](https://wevdev.netlify.app/)</br>
