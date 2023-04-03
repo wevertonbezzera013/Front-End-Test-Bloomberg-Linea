@@ -76,13 +76,15 @@ const Card = () => {
               {pokemon.game_indices &&
                 pokemon.game_indices
                   .filter((game) => !removeGames.includes(game.version.name))
+                  .map((game) => game.version.name)
+                  .sort()
                   .map((game) => (
                     <li
                       className="content"
-                      alt={game.version.name}
-                      key={game.version.name}
+                      alt={game}
+                      key={game}
                     >
-                      {game.version.name}
+                      {game}
                     </li>
                   ))}
             </ul>
